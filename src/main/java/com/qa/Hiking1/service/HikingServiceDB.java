@@ -1,5 +1,6 @@
 package com.qa.Hiking1.service;
 
+
 import java.util.List;
 import java.util.Optional;
 
@@ -8,6 +9,8 @@ import org.springframework.stereotype.Service;
 
 import com.qa.Hiking1.domain.Hiking;
 import com.qa.Hiking1.repo.HikingRepo;
+
+
 
 
 
@@ -59,15 +62,12 @@ public class HikingServiceDB implements HikingService {
 	@Override
 	public Hiking replaceHill(Integer id, Hiking newHill) {
 		Hiking existing = this.repo.findById(id).get();
-
-		existing.setId(newHill.getId());
+		existing.setId(id);
 		existing.setMountainName(newHill.getMountainName());
 		existing.setRegion(newHill.getRegion());
 		existing.setHeight(newHill.getHeight());
 		existing.setCountry(newHill.getCountry());
-
 		Hiking updated = this.repo.save(existing);
-
 		return updated;
 	}
 

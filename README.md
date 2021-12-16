@@ -34,7 +34,10 @@ I set up two git repositories before starting - one for the front-end and one fo
 
 ![fe network graph](https://user-images.githubusercontent.com/75577200/146402461-268a7ed0-1e38-4ac2-8bb4-9220c4504bbd.png)
 
-This is the network graph from my front-end repository:
+This is the network graph from my back-end repository:
+
+![image](https://user-images.githubusercontent.com/75577200/146405384-c8f0324a-caeb-4a30-b80f-82a04ca5964b.png)
+
 
 
 
@@ -74,7 +77,7 @@ The back-end of this project was created using Java in a Spring Boot Framework. 
 
 Integration and unit testing was used on this project.
 
-Integration testing: MockMVC\
+Integration testing: MockMVC
 
 ![testing](https://user-images.githubusercontent.com/75577200/146403334-98c79b87-caf5-43c1-b6c4-a8b19e248f34.png)
 
@@ -100,17 +103,28 @@ The HTML is used to create the look of the website.
 The JS was used for the API integration using axios. It was also used to get the modals to pop up on forms.
 
 ![modal- create](https://user-images.githubusercontent.com/75577200/146403759-64845a5f-31ff-4e52-aca2-ca3f1754484d.png)
+
 ![modal- update](https://user-images.githubusercontent.com/75577200/146403837-9854e99e-e04d-4b0f-a439-c651fefc6885.png)
 
 This is a general build up of how the front end was built:
 
+Adding the GetALL function:
+
 ![GetALL 1](https://user-images.githubusercontent.com/75577200/146404415-2a9a64f2-a2a6-4ebf-b6b3-deb05e5afc9a.png)
+
+Adding forms for Create:
 
 ![create forms1](https://user-images.githubusercontent.com/75577200/146404540-145d7fb6-2f14-4689-8c73-cd770ed96d22.png)
 
+Adding a Delete button:
+
 ![delete](https://user-images.githubusercontent.com/75577200/146404609-099d63d6-e1b9-48cf-af7e-51927ca37dff.png)
 
+Adding a search by Mountain Name form:
+
 ![mountain](https://user-images.githubusercontent.com/75577200/146404685-11ad8c4a-6a7f-4999-a3b0-b0be96acd34f.png)
+
+Adding a search by Height, Region and Country form:
 
 ![height](https://user-images.githubusercontent.com/75577200/146404876-4007b85e-5794-420e-8813-be8d4aaa71b4.png)
 

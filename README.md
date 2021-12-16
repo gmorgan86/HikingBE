@@ -24,7 +24,7 @@ Front-End Development - Functioning front-end website with API integration.
 
 Using Jira Software I created a Kanban board and created the user stories and epics. From the user stories I created linked issues for the front and back end of my project to help the structure of the build. 
 
-![](https://lh3.googleusercontent.com/RDrA8BVZv2sA0I91_k98xpIM5lXEiPPS8VPO0fVjeMINmo7uQ60rj-_ZqfzKtA-t8XYjl3fUXc0LAw_bkR03gxQvVOWGF8it5d1M2pkNdV9yD2X0Hh4NzU2hkT49HDPohQOd8zFd)
+![]![kanban with epics and users](https://user-images.githubusercontent.com/75577200/146398215-4a0ae236-eeb5-45bb-8a7e-c23ebc51dcb5.png)
 
 Throughout the project build I completed two sprints, grouping the issues from epics to complete different sections - front end task and back end tasks.
 

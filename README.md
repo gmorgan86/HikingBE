@@ -59,7 +59,9 @@ Postman was used in testing to send data to the H2 console:
 
 ![postman test](https://user-images.githubusercontent.com/75577200/146402989-87c3fd5c-4ea1-466f-8e9c-02c7fb82989b.png)
 
-This is the layout of my database for the hiking database. ![Mysql erd](https://user-images.githubusercontent.com/75577200/146403104-0cd8809f-b97d-420b-ae0c-6b00093c57d1.png)
+This is the layout of my database for the hiking database. 
+
+![Mysql erd](https://user-images.githubusercontent.com/75577200/146403104-0cd8809f-b97d-420b-ae0c-6b00093c57d1.png)
 
 
 It shows the datatype of each column.

@@ -24,15 +24,22 @@ Front-End Development - Functioning front-end website with API integration.
 
 Using Jira Software I created a Kanban board and created the user stories and epics. From the user stories I created linked issues for the front and back end of my project to help the structure of the build. 
 
-![](https://lh3.googleusercontent.com/RDrA8BVZv2sA0I91_k98xpIM5lXEiPPS8VPO0fVjeMINmo7uQ60rj-_ZqfzKtA-t8XYjl3fUXc0LAw_bkR03gxQvVOWGF8it5d1M2pkNdV9yD2X0Hh4NzU2hkT49HDPohQOd8zFd)
+![kanban with epics and users](https://user-images.githubusercontent.com/75577200/146398215-4a0ae236-eeb5-45bb-8a7e-c23ebc51dcb5.png)
 
 Throughout the project build I completed two sprints, grouping the issues from epics to complete different sections - front end task and back end tasks.
 
-![](https://lh6.googleusercontent.com/sN428wmx3-QxizkfNOStiIjTWaxsyEGCqtzF_3eqY5tGEg29l7iuC07PvwSwU7T7gr955TXQWr7Sw-MV9syxSO_W-rdP-k1YTYhSGpP0KEyWl6nkEx5DZ4te-WlxOeV4xvxEMd3D)
+![Two Sprints](https://user-images.githubusercontent.com/75577200/146402297-8f8461bd-47d6-4223-aa21-575f8a511095.png)
 
-I set up two git repositories before starting - one for the front-end and one for back-end. This is the network graph from my back-end repository:
+I set up two git repositories before starting - one for the front-end and one for back-end. This is the network graph from my front-end repository:
 
-![](https://lh3.googleusercontent.com/2dpUFod5kFAkHn4VByrPF2JHdFommcMl2Ye-BfROPz5ooNtsgvPYw1uW7OV6PQH7pGc-xFDuGfOICd1Xkvc3knNZu6OwnkWzROQ3sTxJ7mpkwjZfQYI3Ca-8kWZun7_kShVCHlZz)
+![fe network graph](https://user-images.githubusercontent.com/75577200/146402461-268a7ed0-1e38-4ac2-8bb4-9220c4504bbd.png)
+
+This is the network graph from my back-end repository:
+
+![image](https://user-images.githubusercontent.com/75577200/146405384-c8f0324a-caeb-4a30-b80f-82a04ca5964b.png)
+
+
+
 
 I linked my git with my jira board so I could make smart commits throughout the build and made sure to commit after each new functionality.
 
@@ -46,9 +53,16 @@ H2:
 
 The H2 database was created with hiking-schema.sql and hiking-data.sql files to automatically populate the fields for testing purposes.
 
-MySQL:![](https://lh4.googleusercontent.com/c6HPVD5UJE7-4yMkp7pWo_2WIdd_RoZxVW1ZHYbZLz1R31yUBEGHeSVVAYGnyUjqpX4QDcfZ1iKuFaZE4yf9PYFj4zJKYeqlMxmlrU_Ew2cLpLFIK5U9U5rsnHRUI7Sr4tOg1vGQ)
+![h2 console test](https://user-images.githubusercontent.com/75577200/146402753-3e75a92b-aaee-4f4f-b7eb-8c84a7965f4d.png)
 
-This is the layout of my database for the hiking database.![](https://lh5.googleusercontent.com/MaP8RKoTEaXjU4FQCz7LChlqU1FDtWemg_XefUvXUgOGaTiD2jBwjsbLBBnRGNiN6c29R9Rb-STcQpd2QAaMyWTYyQg_xTmvz43XXHNLDw6EEWngayvSQukWz6jEluC9WCp3iSAh)
+Postman was used in testing to send data to the H2 console:
+
+![postman test](https://user-images.githubusercontent.com/75577200/146402989-87c3fd5c-4ea1-466f-8e9c-02c7fb82989b.png)
+
+This is the layout of my database for the hiking database. 
+
+![Mysql erd](https://user-images.githubusercontent.com/75577200/146403104-0cd8809f-b97d-420b-ae0c-6b00093c57d1.png)
+
 
 It shows the datatype of each column.
 
@@ -58,24 +72,24 @@ It shows the datatype of each column.
 
 The back-end of this project was created using Java in a Spring Boot Framework. I made sure that the majority of my Kanban board requirements were met with the correct mappings in my code.
 
-![](https://lh4.googleusercontent.com/3lqHWvWTZwx-yrqsHsXe5hn_YyjlA5x6Fg8IbVySVv2LlZI7SifJY8jBUsu0LQog6x92nF4ZzRbRBdZI-F_4MdVWcQI38LPBtHbLhomsw4pLhbjQsR6fBUCNHkve0XMP3V7CCbxy)
+![mapping](https://user-images.githubusercontent.com/75577200/146403238-77e52c3c-073a-402c-9320-fd13a61a28d1.png)
+
 
 #### Testing:
 
 Integration and unit testing was used on this project.
 
-Integration testing: MockMVC\
-![](https://lh4.googleusercontent.com/eFd3quy2T8RZuh3mjpBMGv84zvQFkbIb255BBzic2MROstOFq4KgQtdD7HLoPoSDDyYFWPqpG4M_lLnQQYdzCldqAb2EEhDpZ-xzPkY6uQ9RT4XDJ9JcfIDijlNHCxIrXRXe99_l)
+Integration testing: MockMVC
+
+![testing](https://user-images.githubusercontent.com/75577200/146403334-98c79b87-caf5-43c1-b6c4-a8b19e248f34.png)
 
 To make sure that the program was working, I used MockMVC to create a mocked Controller class.
 
 It performed mock HTTP requests like a user of the program would and allowed me to test the outcomes of each HTTP endpoint.
 
-Unit testing: JUnit
-
 By unit testing each part of the program I could check that the individual parts are working as they should.
 
-![](https://lh6.googleusercontent.com/4cJFjIRKfRDFyyotmGI8snpLpZwBJeUpROH_ciNUy4FmlOJwwP2PjS1Q76ym2bPyFm-6O81LZTsRThKPrB908bxZBaZ9fvTgtRzvk2HnY2H4tAs2zUlOsq3gLEgun8yURT7nqcRH)
+
 
 
 * * * * *
@@ -85,8 +99,39 @@ By unit testing each part of the program I could check that the individual parts
 The front-end is built from HTML and JavaScript. I used the Bootstrap framework for various components, including forms, modals and buttons.
 
 The HTML is used to create the look of the website.
-![](https://lh4.googleusercontent.com/03_SLAbjwnCNTHhDvgEYJYmXhjUUIzMxn4BauCxT1TYVsrbP_dFk02a94idpkLIgZljLw4nY3r3X8kfKW8-hL5E3Pnsb37bkMVEJJU5gxjH8oxr7NgM7VOJDRZZTgr7j48iTJsU2)
+
+![front end design](https://user-images.githubusercontent.com/75577200/146403621-b5956da7-0fad-4906-9880-73295bcf5d46.png)
 
 The JS was used for the API integration using axios. It was also used to get the modals to pop up on forms.
-![](https://lh3.googleusercontent.com/OctetUULYWPzih9ZkTBcZfUj76zcX-bzTKPeA5Lw043hmewq7J2WWXKRaq6-9ZhYyQYEWzYvwG3bWSSa9PYHvd_abYl-QFo34-xBVToRCeb2HudeCju6ODOsSNMVInD8SvoU_uF3)\
-![](https://lh5.googleusercontent.com/aGOgfJLdtWOC4p5xw3lv3lLR-t-oqNpE2GQq5jXjgAJCIAKYnJVOrkrTwAAlxn5WMePT3ttvd2RBERW8crgnpEcm6-PzC2Ei8T0pWs-ZoKPaK7IPi70Tp9vNlFnONonUYU_VZfj0)
+
+![modal- create](https://user-images.githubusercontent.com/75577200/146403759-64845a5f-31ff-4e52-aca2-ca3f1754484d.png)
+
+![modal- update](https://user-images.githubusercontent.com/75577200/146403837-9854e99e-e04d-4b0f-a439-c651fefc6885.png)
+
+This is a general build up of how the front end was built:
+
+Adding the GetALL function:
+
+![GetALL 1](https://user-images.githubusercontent.com/75577200/146404415-2a9a64f2-a2a6-4ebf-b6b3-deb05e5afc9a.png)
+
+Adding forms for Create:
+
+![create forms1](https://user-images.githubusercontent.com/75577200/146404540-145d7fb6-2f14-4689-8c73-cd770ed96d22.png)
+
+Adding a Delete button:
+
+![delete](https://user-images.githubusercontent.com/75577200/146404609-099d63d6-e1b9-48cf-af7e-51927ca37dff.png)
+
+Adding a search by Mountain Name form:
+
+![mountain](https://user-images.githubusercontent.com/75577200/146404685-11ad8c4a-6a7f-4999-a3b0-b0be96acd34f.png)
+
+Adding a search by Height, Region and Country form:
+
+![height](https://user-images.githubusercontent.com/75577200/146404876-4007b85e-5794-420e-8813-be8d4aaa71b4.png)
+
+
+
+
+
+
